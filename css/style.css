@@ -21,8 +21,8 @@ body {
   padding-left: 20px;
 }
 #dx {
-   text-align: right;
-   padding-right: 20px;
+  text-align: right;
+  padding-right: 20px;
 }
 
 .hd-top img {
@@ -37,6 +37,7 @@ body {
   line-height: 100px;
 }
 .hd-top a {
+  cursor: pointer;
   height: 100px;
   line-height: 100px;
   display: inline-block;
@@ -45,10 +46,25 @@ body {
   color: black;
   font-size: 14px;
   vertical-align: middle;
+  position: relative;
+}
+a #banner {
+   height: 3px;
+   width: 100%;
+   background-color: black;
+   opacity: 0;
 }
 
-#dx ul li a:last-child {
-   display: inline;
-   padding: 10px;
-   background-color: rgb(36,97,249);
+#dx li:last-child a {
+  display: inline;
+  padding: 10px 20px;
+  background-color: rgb(36, 97, 249);
+  color: white;
+}
+#dx li:last-child a:hover {
+   filter: opacity(0.7);
+}
+
+a:hover #banner {
+   opacity: 1;
 }
