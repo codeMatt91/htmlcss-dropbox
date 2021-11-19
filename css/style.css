@@ -9,15 +9,31 @@ body {
   color: black;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Section Header  */
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* Section header top  */
+.header-top {
+  height: 100px;
+}
 
 .header-top .hd-top {
   height: 100px;
   float: left;
   width: 50%;
   line-height: 100px;
+}
+#sx {
   padding-left: 20px;
 }
 #dx {
@@ -49,10 +65,10 @@ body {
   position: relative;
 }
 a #banner {
-   height: 3px;
-   width: 100%;
-   background-color: black;
-   opacity: 0;
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  opacity: 0;
 }
 
 #dx li:last-child a {
@@ -62,9 +78,48 @@ a #banner {
   color: white;
 }
 #dx li:last-child a:hover {
-   filter: opacity(0.7);
+  filter: opacity(0.7);
 }
 
 a:hover #banner {
-   opacity: 1;
+  opacity: 1;
+}
+
+/* Section Header bottom  */
+
+.header-bottom {
+  background-color: rgb(185, 207, 229);
+}
+
+.main-title {
+  padding: 100px 0 30px 0;
+}
+.main-title h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.free-trial {
+  float: left;
+  width: 30%;
+}
+.free-trial p {
+  font-weight: bold;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+.button a {
+   text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 60%;
+  padding: 10px 20px;
+  background-color: rgb(36,97,249);
+  color: white;
+}
+.button a:hover {
+   filter: opacity(0.8);
 }
