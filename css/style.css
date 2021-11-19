@@ -20,8 +20,9 @@ body {
   line-height: 100px;
   padding-left: 20px;
 }
-.hd-top .dx {
-  padding-right: 20px;
+#dx {
+   text-align: right;
+   padding-right: 20px;
 }
 
 .hd-top img {
@@ -33,6 +34,7 @@ body {
 }
 .hd-top li {
   display: inline-block;
+  line-height: 100px;
 }
 .hd-top a {
   height: 100px;
@@ -42,4 +44,11 @@ body {
   text-decoration: none;
   color: black;
   font-size: 14px;
+  vertical-align: middle;
+}
+
+#dx ul li a:last-child {
+   display: inline;
+   padding: 10px;
+   background-color: rgb(36,97,249);
 }
