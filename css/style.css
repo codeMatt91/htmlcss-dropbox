@@ -123,3 +123,6 @@ a:hover #banner {
 .button a:hover {
    filter: opacity(0.8);
 }
+.free-trial span {
+   margin-top: 10px;
+}
