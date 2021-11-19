@@ -1,5 +1,45 @@
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  color: black;
+}
+
+/* Section Header  */
+
+/* Section header top  */
+
+.header-top .hd-top {
+  height: 100px;
+  float: left;
+  width: 50%;
+  line-height: 100px;
+  padding-left: 20px;
+}
+.hd-top .dx {
+  padding-right: 20px;
+}
+
+.hd-top img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.hd-top ul {
+  display: inline-block;
+}
+.hd-top li {
+  display: inline-block;
+}
+.hd-top a {
+  height: 100px;
+  line-height: 100px;
+  display: inline-block;
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
 }
