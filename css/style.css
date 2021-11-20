@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* GENERAL RULES  */
+
 body {
   font-family: "Open Sans";
   color: black;
@@ -15,12 +17,24 @@ body {
   clear: both;
 }
 
-/* Section Header  */
-
 .container {
   width: 1200px;
   margin: 0 auto;
 }
+
+.container-head {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container-col {
+   padding: 0 10px;
+}
+
+
+/* SECTION HEADER RULES  */
+
 
 /* Section header top  */
 .header-top {
@@ -64,7 +78,7 @@ body {
   vertical-align: middle;
   position: relative;
 }
-a #banner {
+a .banner {
   height: 3px;
   width: 100%;
   background-color: black;
@@ -81,7 +95,7 @@ a #banner {
   filter: opacity(0.7);
 }
 
-a:hover #banner {
+a:hover .banner {
   opacity: 1;
 }
 
@@ -101,7 +115,7 @@ a:hover #banner {
 
 .free-trial {
   float: left;
-  width: 30%;
+  width: 35%;
 }
 .free-trial p {
   font-weight: bold;
@@ -109,7 +123,7 @@ a:hover #banner {
   margin-bottom: 20px;
 }
 .button a {
-   text-align: center;
+  text-align: center;
   text-decoration: none;
   color: black;
   font-size: 14px;
@@ -117,12 +131,55 @@ a:hover #banner {
   display: inline-block;
   width: 60%;
   padding: 10px 20px;
-  background-color: rgb(36,97,249);
+  background-color: rgb(36, 97, 249);
   color: white;
 }
 .button a:hover {
-   filter: opacity(0.8);
+  filter: opacity(0.8);
 }
 .free-trial span {
-   margin-top: 10px;
+  display: block;
+  margin-top: 15px;
+}
+.fa-arrow-down {
+  margin: 40px 0 80px 0;
+}
+.img-hd {
+  float: left;
+  width: 65%;
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+}
+.img-hd img {
+  width: 95%;
+}
+
+/* MAIN RULES  */
+
+
+/* Section Plan  */
+
+.title-plan {
+  margin: 170px 0 30px 0;
+}
+.title-plan h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.form-bill label {
+  padding-right: 20px;
+}
+
+.plan-col {
+  margin-top: 20px;
+}
+.col {
+  float: left;
+  width: calc((100% / 3) - 20px);
+  height: 800px;
+  border: 1px solid rgb(223, 220, 220);
+}
+.col.second {
+  margin: 0 30px;
 }
