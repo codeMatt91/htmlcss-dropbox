@@ -373,10 +373,11 @@ a:hover .banner {
 
 .team {
   margin: 60px 0;
-  background-color: rgb(245, 245, 245);
   height: 400px;
 }
-
+.text-team {
+  background-color: rgb(245, 245, 245);
+}
 .w-30 {
   width: 30%;
   float: left;
@@ -393,12 +394,36 @@ a:hover .banner {
   width: 50%;
   height: 50%;
 }
-
 .img-team img {
   width: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  filter: invert(1)
+  filter: invert(1);
+}
+
+.img-team.green {
+  background-color: rgb(172, 209, 159);
+}
+.img-team.prune {
+  background-color: rgb(89, 22, 43);
+}
+.img-team.light-blue {
+  background-color: rgb(62, 144, 202);
+}
+.img-team.red {
+  background-color: rgb(235, 68, 43);
+}
+.img-team.dark-red {
+  background-color: rgb(196,49,40);
+}
+.img-team.sky {
+  background-color: rgb(185,207,229);
+}
+.img-team.blue {
+  background-color: rgb(17,37,126);
+}
+.img-team.yellow {
+  background-color: rgb(249,218,77);
 }
