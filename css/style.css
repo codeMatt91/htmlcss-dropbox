@@ -248,13 +248,19 @@ a:hover .banner {
   font-weight: bold;
 }
 .list ul {
-  font-size: 14px;
-  list-style-image: url("");
-  padding: 0 20px;
+  font-size: 15px;
+  /* padding: 0 20px; */
 }
 
 .list li {
-  margin-bottom: 15px;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.list li::before {
+  font-weight: 900;
+  content: "\2713";
+  color: rgb(36, 97, 249);
+  padding: 0 5px 20px 0;
 }
 
 /* RULES SECTION SEARCH  */
@@ -416,14 +422,14 @@ a:hover .banner {
   background-color: rgb(235, 68, 43);
 }
 .img-team.dark-red {
-  background-color: rgb(196,49,40);
+  background-color: rgb(196, 49, 40);
 }
 .img-team.sky {
-  background-color: rgb(185,207,229);
+  background-color: rgb(185, 207, 229);
 }
 .img-team.blue {
-  background-color: rgb(17,37,126);
+  background-color: rgb(17, 37, 126);
 }
 .img-team.yellow {
-  background-color: rgb(249,218,77);
+  background-color: rgb(249, 218, 77);
 }
