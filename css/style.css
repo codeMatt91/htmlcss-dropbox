@@ -329,7 +329,7 @@ a:hover .banner {
   height: 600px;
 }
 .card-business {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 .title-business {
   font-size: 30px;
@@ -353,4 +353,52 @@ a:hover .banner {
 .card p {
   font-size: 14px;
   padding: 10px 0 20px;
+}
+
+.client h3 {
+  font-size: 32px;
+  margin: 150px 0 30px;
+}
+
+.clearfix-client::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+.client a {
+  color: rgb(36, 97, 249);
+}
+
+/* SECTION RULES TEAM  */
+
+.team {
+  margin: 60px 0;
+  background-color: rgb(245, 245, 245);
+  height: 400px;
+}
+
+.w-30 {
+  width: 30%;
+  float: left;
+  height: 400px;
+}
+.text-team {
+  width: 40%;
+  float: left;
+  height: 400px;
+}
+.w-30 .img-team {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+.img-team img {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: invert(1)
 }
