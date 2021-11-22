@@ -404,7 +404,20 @@ a:hover .banner {
 .text-team {
   width: 40%;
   float: left;
-  height: 400px;
+  padding: 40px 50px;
+}
+.img-text-team {
+  margin-bottom: 80px;
+}
+.img-text-team img {
+  width: 28%;
+}
+.text-team p {
+  line-height: 22px;
+}
+.text-team span {
+  display: inline-block;
+  margin-top: 40px;
 }
 .w-30 .img-team {
   position: relative;
