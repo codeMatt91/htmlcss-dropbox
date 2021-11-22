@@ -191,7 +191,6 @@ a:hover .banner {
 .col {
   float: left;
   width: calc((100% / 3) - 20px);
-  height: 900px;
   border: 1px solid rgb(223, 220, 220);
 }
 .col.second {
@@ -457,4 +456,95 @@ a:hover .banner {
 }
 .img-team.yellow {
   background-color: rgb(249, 218, 77);
+}
+
+/*********** SECTION AGENCY RULES  **********/
+
+.agency {
+  background-color: rgb(180, 209, 231);
+}
+.col-agency h2 {
+  font-size: 40px;
+  line-height: 60px;
+  color: rgb(88,19,43);
+}
+.col-agency {
+  float: left;
+  padding: 150px 0;
+}
+.w-65 {
+  width: 65%;
+}
+.w-35 {
+  width: 35%;
+}
+.w-35 .button a {
+  background-color: white;
+  color: black;
+}
+
+
+
+/*************** SECTION Q&A  ***************/
+
+.question {
+  margin: 150px 0 100px;
+}
+.answer {
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  border-color: rgb(228, 223, 223);
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+}
+.answer {
+  padding: 40px 0;
+}
+.question h2 {
+  margin-bottom: 60px;
+  font-size: 32px;
+}
+
+
+
+/******************* FOOTER  *******************/
+
+footer {
+  background-color: black;
+  color: white;
+  margin-bottom: 40px;
+}
+.col.w-20 {
+  position: relative;
+  padding: 90px 0 150px;
+  width: 20%;
+  border: none;
+  height: 421px;
+}
+.linear {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 50%;
+  background-color: white;
+  opacity: 0;
+}
+.col.w-20:hover .linear {
+  opacity: 1;
+}
+
+.col.w-20 h4 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.col.w-20 li {
+  list-style-type: none;
+}
+.col.w-20 li a {
+  text-decoration: none;
+  color: white;
+  line-height: 27px;
 }
