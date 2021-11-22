@@ -389,8 +389,8 @@ a:hover .banner {
 /* SECTION RULES TEAM  */
 
 .team {
-  margin: 60px 0;
-  height: 400px;
+  margin-top: 60px;
+  /* height: 400px; */
 }
 .text-team {
   background-color: rgb(245, 245, 245);
@@ -398,15 +398,15 @@ a:hover .banner {
 .w-30 {
   width: 30%;
   float: left;
-  height: 400px;
+  height: 550px;
 }
 .text-team {
   width: 40%;
   float: left;
-  padding: 40px 50px;
+  padding: 60px 50px;
 }
 .img-text-team {
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 .img-text-team img {
   width: 28%;
@@ -416,7 +416,7 @@ a:hover .banner {
 }
 .text-team span {
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 .w-30 .img-team {
   position: relative;
@@ -424,6 +424,16 @@ a:hover .banner {
   width: 50%;
   height: 50%;
 }
+.img-team {
+  width: 50%;
+  height: 50%;
+  transition: border;
+}
+
+.img-team:hover {
+  border: 12px solid rgb(255, 255, 255,0.4);
+}
+
 .img-team img {
   width: 50%;
   position: absolute;
@@ -547,4 +557,10 @@ footer {
   text-decoration: none;
   color: white;
   line-height: 27px;
+}
+
+.footer-bottom {
+  padding: 40px 0;
+  color: gray;
+  font-size: 15px;
 }
