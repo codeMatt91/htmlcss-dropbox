@@ -170,19 +170,44 @@ a:hover .banner {
   width: 95%;
 }
 
-/* MAIN RULES  */
+/************* MAIN RULES  ******************/
 
 /* Section Plan  */
 
 .title-plan {
-  margin: 170px 0 30px 0;
+  margin: 170px 0 50px 0;
 }
 .title-plan h2 {
   font-size: 40px;
   font-weight: bolder;
 }
+.form-bill {
+  height: 40px;
+  line-height: 40px;
+}
 .form-bill label {
   padding-right: 20px;
+}
+input[type='radio']{
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #e5e9e5;
+  content: '';
+  display: inline;
+  visibility: visible;
+  border: 1px solid rgb(194, 194, 194);
+}
+
+input[type='radio']:checked{
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  content: '';
+  display: inline;
+  visibility: visible;
+  border: 1px solid rgb(179, 179, 179);
 }
 
 .plan-col {
@@ -274,7 +299,9 @@ a:hover .banner {
   list-style-type: none;
   margin-bottom: 30px;
 }
-/* RULES SECTION SEARCH  */
+
+
+/************* RULES SECTION SEARCH  ****************/
 
 /* Enterprise erea  */
 .search {
@@ -339,7 +366,8 @@ a:hover .banner {
   border: 1px solid black;
 }
 
-/* SECTION RULES DBP-BUSINESS  */
+
+/************* SECTION RULES DBP-BUSINESS  **********/
 
 .dpb-business {
   margin-top: 80px;
@@ -386,7 +414,7 @@ a:hover .banner {
   color: rgb(36, 97, 249);
 }
 
-/* SECTION RULES TEAM  */
+/************* SECTION RULES TEAM  ***************/
 
 .team {
   margin-top: 60px;
@@ -431,7 +459,7 @@ a:hover .banner {
 }
 
 .img-team:hover {
-  border: 12px solid rgb(255, 255, 255,0.4);
+  border: 12px solid rgb(255, 255, 255, 0.4);
 }
 
 .img-team img {
@@ -468,7 +496,7 @@ a:hover .banner {
   background-color: rgb(249, 218, 77);
 }
 
-/*********** SECTION AGENCY RULES  **********/
+/*********** SECTION AGENCY RULES  **************/
 
 .agency {
   background-color: rgb(180, 209, 231);
@@ -476,7 +504,7 @@ a:hover .banner {
 .col-agency h2 {
   font-size: 40px;
   line-height: 60px;
-  color: rgb(88,19,43);
+  color: rgb(88, 19, 43);
 }
 .col-agency {
   float: left;
@@ -493,9 +521,7 @@ a:hover .banner {
   color: black;
 }
 
-
-
-/*************** SECTION Q&A  ***************/
+/******************* SECTION Q&A  ******************/
 
 .question {
   margin: 150px 0 100px;
@@ -516,8 +542,6 @@ a:hover .banner {
   margin-bottom: 60px;
   font-size: 32px;
 }
-
-
 
 /******************* FOOTER  *******************/
 
