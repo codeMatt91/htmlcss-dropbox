@@ -7,7 +7,7 @@
 /* GENERAL RULES  */
 
 body {
-  font-family: "Open-Sans", "Helvetica", serif;
+  font-family: "Open-Sans", sans-serif;
   color: black;
 }
 
@@ -35,6 +35,18 @@ body {
   width: 293, 32px;
   padding: 0 20px;
   height: 800px;
+}
+.button a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 60%;
+  padding: 10px 20px;
+  background-color: rgb(36, 97, 249);
+  color: white;
 }
 
 /* SECTION HEADER RULES  */
@@ -125,7 +137,7 @@ a:hover .banner {
   padding-right: 10px;
   margin-bottom: 20px;
 }
-.button a {
+.free-trial .button a {
   text-align: center;
   text-decoration: none;
   color: black;
@@ -239,7 +251,6 @@ a:hover .banner {
   color: rgb(51, 97, 243);
 }
 .lista {
-  height: 100px;
   max-width: 100%;
   margin-top: 20px;
 }
@@ -249,13 +260,9 @@ a:hover .banner {
 }
 .list ul {
   font-size: 15px;
-  /* padding: 0 20px; */
+  padding: 0 20px;
 }
 
-.list li {
-  list-style-type: none;
-  margin-bottom: 30px;
-}
 .list li::before {
   font-weight: 900;
   content: "\2713";
@@ -263,6 +270,11 @@ a:hover .banner {
   padding: 0 5px 20px 0;
 }
 
+.list li {
+  text-indent: -22px;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
 /* RULES SECTION SEARCH  */
 
 /* Enterprise erea  */
