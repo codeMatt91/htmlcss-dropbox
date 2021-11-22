@@ -194,19 +194,11 @@ input[type='radio']{
   height: 20px;
   border-radius: 20px;
   background-color: #e5e9e5;
-  content: '';
   display: inline;
-  visibility: visible;
   border: 1px solid rgb(194, 194, 194);
 }
 
 input[type='radio']:checked{
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
-  content: '';
-  display: inline;
-  visibility: visible;
   border: 1px solid rgb(179, 179, 179);
 }
 
