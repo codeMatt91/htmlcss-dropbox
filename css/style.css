@@ -602,7 +602,7 @@ input[type="radio"]:checked {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  content: '\f106';
+  content: "\f106";
 }
 .information {
   font-weight: normal;
@@ -610,12 +610,11 @@ input[type="radio"]:checked {
   display: none;
   color: rgb(160, 156, 156);
 }
-.answer:hover .information{
+.answer:hover .information {
   display: inline-block;
   line-height: 20px;
   padding: 10px 0;
 }
-
 
 /******************* FOOTER  *******************/
 
