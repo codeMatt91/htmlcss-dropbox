@@ -197,7 +197,7 @@ a:hover .banner {
 .form-bill label {
   padding-right: 20px;
 }
-input[type='radio']{
+input[type="radio"] {
   vertical-align: middle;
   width: 20px;
   height: 20px;
@@ -207,8 +207,8 @@ input[type='radio']{
   border: 1px solid rgb(194, 194, 194);
 }
 
-input[type='radio']:checked{
-  border: 4px solid rgb(51,97,243);
+input[type="radio"]:checked {
+  border: 4px solid rgb(51, 97, 243);
 }
 
 .plan-col {
@@ -301,7 +301,6 @@ input[type='radio']:checked{
   margin-bottom: 30px;
 }
 
-
 /************* RULES SECTION SEARCH  ****************/
 
 /* Enterprise erea  */
@@ -366,7 +365,6 @@ input[type='radio']:checked{
   color: black;
   border: 1px solid black;
 }
-
 
 /************* SECTION RULES DBP-BUSINESS  **********/
 
@@ -533,17 +531,45 @@ input[type='radio']:checked{
   font-size: 32px;
 }
 .answer {
+  font-weight: 600;
+  position: relative;
   width: 100%;
   display: inline-block;
   line-height: 100px;
   border-bottom: 1px solid lightgray;
 }
-.answer::after {
-  font-family: "Font Awesome 5 Pro";
-  font-weight: 900;
-  content: "f107";
-  text-align: right;
+.single-quest {
+  position: relative;
 }
+.single-quest::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f107";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.single-quest:hover::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  content: '\f106';
+}
+.information {
+  font-weight: normal;
+  width: 100%;
+  display: none;
+}
+.answer:hover .information{
+  display: inline-block;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
 
 /******************* FOOTER  *******************/
 
