@@ -60,9 +60,6 @@ body {
   right: 0;
   z-index: 2;
 }
-.hd-top {
-  /* position: fixed; */
-}
 .header-top .hd-top {
   height: 100px;
   float: left;
@@ -188,7 +185,7 @@ a:hover .lil-curtain {
   margin-top: 15px;
 }
 .fa-arrow-down {
-  margin: 40px 0 80px 0;
+  margin: 40px 0 40px 0;
 }
 .img-hd {
   float: left;
@@ -199,6 +196,32 @@ a:hover .lil-curtain {
 }
 .img-hd img {
   width: 95%;
+}
+.bouncing {
+  height: 150px;
+  position: relative;
+}
+.fa-arrow-down {
+  position: absolute;
+  animation: bouncing 1s ease infinite;
+}
+
+@keyframes bouncing {
+  0% {
+    position: absolute;
+    top: o;
+    left: 0;
+  }
+  50% {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  100% {
+    position: absolute;
+    top: o;
+    left: 0;
+  }
 }
 
 /************* MAIN RULES  ******************/
@@ -585,6 +608,7 @@ input[type="radio"]:checked {
   font-weight: normal;
   width: 100%;
   display: none;
+  color: rgb(160, 156, 156);
 }
 .answer:hover .information{
   display: inline-block;
